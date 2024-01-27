@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { sequelize } = require('../config/database');
 const User = require('../models/User')(sequelize);
+const Tool = require('../models/Tool')(sequelize);
 
 // ...
 
@@ -22,5 +23,20 @@ router.get('/users', async (req, res) => {
   }
 });
 
+router.get('/tools', async (req, res) => {
+  try {
+    // Fetch all tools from the database
+    const allTools = await Tool.findAll();
+
+    // Log the fetched tools
+    console.log('Fetched tools:', allTools);
+
+    // Render the tools.handlebars page and pass the user data
+    res.render('tools', { tools: allTools });
+  } catch (error) {
+    console.error('Error fetching tools:', error.message);
+    res.status(500).send('Internal Server Error');
+  }
+});
 
 module.exports = router;

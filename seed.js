@@ -1,5 +1,6 @@
 const { sequelize } = require('./config/database');
 const User = require('./models/User')(sequelize);
+const Tool = require('./models/Tool')(sequelize);
 
 async function seedUsers() {
   try {
@@ -19,11 +20,39 @@ async function seedUsers() {
     console.log('Seed users created successfully');
   } catch (error) {
     console.error('Error seeding users:', error.message);
-  } finally {
-    // Close the Sequelize connection
-    await sequelize.close();
   }
 }
 
-// Run the seed function
-seedUsers();
+async function seedTools() {
+  try {
+    // Array of seed tools
+    const seedToolsData = [
+      { sku: '600062', line: '110/1', description: 'Open end wrench', count:  24},
+      { sku: '607882', line: '478/1BI', description: 'Cable shear pliers', count:  0},
+      { sku: '627548', line: '556A', description: 'Cutter', count:  10},
+      { sku: '616471', line: '603VDE', description: 'Screwdriver', count:  1 },
+      { sku: '605518', line: '6492C8', description: 'Torx bit set', count:  2 },
+      // Add more seed tools as needed
+    ];
+
+    // Create seed tools
+    await Tool.bulkCreate(seedToolsData);
+
+    console.log('Seed tools created successfully');
+  } catch (error) {
+    console.error('Error seeding tools:', error.message);
+  }
+}
+
+// Run the seed functions
+(async () => {
+  try {
+    await seedUsers();
+    await seedTools();
+  } catch (error) {
+    console.error('Error running seed functions:', error.message);
+  } finally {
+    // Close the Sequelize connection after seeding both users and tools
+    await sequelize.close();
+  }
+})();

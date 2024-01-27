@@ -1,0 +1,17 @@
+<!-- views/users.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool List</title>
+  </head>
+  <body>
+    <h1>Tool List</h1>
+    <ul>
+      {{#each tools}}
+        <li>{{this.dataValues.sku}} - {{this.dataValues.line}} - {{this.dataValues.description}} - {{this.dataValues.count}}</li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
