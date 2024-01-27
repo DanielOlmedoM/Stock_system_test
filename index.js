@@ -1,26 +1,17 @@
 const express = require('express');
-const { Sequelize, DataTypes } = require('sequelize');
+const exphbs = require('express-handlebars');
+const { sequelize } = require('./config/database');
+const routes = require('./routes');
 
 const app = express();
-const sequelize = new Sequelize('database', 'username', 'password', {
-  host: 'localhost',
-  dialect: 'mysql'
-});
 
-// Define your Sequelize models here (e.g., User model)
-const User = require('./models/User')(sequelize);
+// Set up Handlebars as the view engine
+app.engine('handlebars', exphbs.engine());
+app.set('view engine', 'handlebars');
 
-// Sync the database and start the server
-sequelize.sync({ force: true }).then(() => {
-  console.log('Database synced');
+app.use('/', routes);
 
-  // Example route
-  app.get('/', (req, res) => {
-    res.send('Hello World!');
-  });
-
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-  });
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
