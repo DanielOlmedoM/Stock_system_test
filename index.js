@@ -5,6 +5,8 @@ const routes = require('./routes');
 
 const app = express();
 
+app.use(express.static('public'));
+
 // Set up Handlebars as the view engine
 app.engine('handlebars', exphbs.engine());
 app.set('view engine', 'handlebars');
