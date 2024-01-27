@@ -1,0 +1,28 @@
+{
+  "name": "stock_system_test",
+  "version": "1.0.0",
+  "description": "Stock management styems using Node, Express, MySQL and Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielOlmedoM/Stock_system_test.git"
+  },
+  "keywords": [
+    "Stock",
+    "management"
+  ],
+  "author": "DanOlm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielOlmedoM/Stock_system_test/issues"
+  },
+  "homepage": "https://github.com/DanielOlmedoM/Stock_system_test#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.0",
+    "sequelize": "^6.35.2"
+  }
+}
