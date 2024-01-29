@@ -1,3 +1,75 @@
 header {
-    background-color: black;
+    display: flex;
+}
+
+header img {
+    height: 10vw;
+    width: auto;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    font-size: 1rem;
+}
+
+.title {
+    color: rgb(0,0,0);
+    font-size: 1.2rem;
+    width: 30vw;
+}
+
+/*Tools*/
+
+.busqueda-main {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.busqueda-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busqueda-nav * {
+    margin: 0.25rem;
+    max-width: 25vw;
+}
+
+.busqueda-table {
+    width: 95vw;
+}
+
+.busqueda-table-head {
+    background-color: rgb(73, 96, 181);
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.busqueda-table-head th {
+    display: flex;
+    justify-content: center;
+}
+
+.busqueda-table td {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 2rem;
+}
+
+.busqueda-table tr {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }

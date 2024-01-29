@@ -5,6 +5,17 @@ const User = require('../models/User')(sequelize);
 const Tool = require('../models/Tool')(sequelize);
 
 // ...
+router.get('/', async (req, res) => {
+  try {
+    // console.log('Index test');
+
+    // Render the users.handlebars page and pass the user data
+    res.render('index');
+  } catch (error) {
+    console.error('Error fetching users:', error.message);
+    res.status(500).send('Internal Server Error');
+  }
+});
 
 // Example route to render user list
 router.get('/users', async (req, res) => {
