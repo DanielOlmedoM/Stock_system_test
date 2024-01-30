@@ -54,7 +54,22 @@
     {{/each}}
     </table>
   {{else}}
-    <p>No search results.</p>
+    <table class="busqueda-table">
+      <tr class="busqueda-table-head">
+        <th>SKU</th>
+        <th>Linea</th>
+        <th>Descripción</th>
+        <th>Conteo</th>
+      </tr>
+      {{#each tools}}
+        <tr>
+          <td>{{this.dataValues.sku}}</td>   
+          <td>{{this.dataValues.line}}</td>
+          <td>{{this.dataValues.description}}</td>
+          <td>{{this.dataValues.count}}</td>
+          </tr>
+      {{/each}}
+    </table>
   {{/if}}
 
   </body>
