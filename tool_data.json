@@ -1,0 +1,494 @@
+[
+  {
+    "sku": 600061,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 13
+  },
+  {
+    "sku": 600064,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 14
+  },
+  {
+    "sku": 605348,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 31
+  },
+  {
+    "sku": 605349,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 23
+  },
+  {
+    "sku": 600062,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 603316,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 603318,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 603317,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 26
+  },
+  {
+    "sku": 600068,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 12
+  },
+  {
+    "sku": 600065,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 600066,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 605350,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 23
+  },
+  {
+    "sku": 600060,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 25
+  },
+  {
+    "sku": 600067,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 29
+  },
+  {
+    "sku": 600074,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 15
+  },
+  {
+    "sku": 600069,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 31
+  },
+  {
+    "sku": 600079,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 22
+  },
+  {
+    "sku": 600072,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 28
+  },
+  {
+    "sku": 600070,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 31
+  },
+  {
+    "sku": 600075,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 31
+  },
+  {
+    "sku": 600076,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 25
+  },
+  {
+    "sku": 600077,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 605351,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 22
+  },
+  {
+    "sku": 605352,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 22
+  },
+  {
+    "sku": 605353,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 22
+  },
+  {
+    "sku": 600078,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 25
+  },
+  {
+    "sku": 600080,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 30
+  },
+  {
+    "sku": 600082,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 13
+  },
+  {
+    "sku": 605354,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 23
+  },
+  {
+    "sku": 600081,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 27
+  },
+  {
+    "sku": 600085,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 12
+  },
+  {
+    "sku": 600083,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 32
+  },
+  {
+    "sku": 605355,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 23
+  },
+  {
+    "sku": 600088,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 21
+  },
+  {
+    "sku": 600086,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 34
+  },
+  {
+    "sku": 600089,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 22
+  },
+  {
+    "sku": 600084,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 26
+  },
+  {
+    "sku": 605356,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 22
+  },
+  {
+    "sku": 600090,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 24
+  },
+  {
+    "sku": 600092,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 20
+  },
+  {
+    "sku": 605357,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 23
+  },
+  {
+    "sku": 600095,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 11
+  },
+  {
+    "sku": 600093,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 12
+  },
+  {
+    "sku": 605358,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 27
+  },
+  {
+    "sku": 600091,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 27
+  },
+  {
+    "sku": 600098,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 18
+  },
+  {
+    "sku": 605359,
+    "line": "110/1",
+    "description": "Llave española  estándar",
+    "count": 27
+  },
+  {
+    "sku": 600099,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 10
+  },
+  {
+    "sku": 600096,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 26
+  },
+  {
+    "sku": 600097,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 32
+  },
+  {
+    "sku": 603848,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 26
+  },
+  {
+    "sku": 602593,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 7
+  },
+  {
+    "sku": 600100,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 7
+  },
+  {
+    "sku": 600101,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 7
+  },
+  {
+    "sku": 600102,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 7
+  },
+  {
+    "sku": 605549,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 17
+  },
+  {
+    "sku": 602594,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 7
+  },
+  {
+    "sku": 602595,
+    "line": "110/1",
+    "description": "Llave española",
+    "count": 17
+  },
+  {
+    "sku": 600105,
+    "line": "110/1CB",
+    "description": "Juego de llaves españolas en caja de carton",
+    "count": 3
+  },
+  {
+    "sku": 602844,
+    "line": "110/1CB",
+    "description": "Set of open end wrenches in carton box",
+    "count": 5
+  },
+  {
+    "sku": 611018,
+    "line": "110/1CB",
+    "description": "Set of open end wrenches in carton box",
+    "count": "0"
+  },
+  {
+    "sku": 600106,
+    "line": "110/1CB",
+    "description": "Set of open end wrenches in carton box",
+    "count": 3
+  },
+  {
+    "sku": 605531,
+    "line": "110/1CB",
+    "description": "Set of open end wrenches in carton box",
+    "count": "0"
+  },
+  {
+    "sku": 600107,
+    "line": "110/1CB",
+    "description": "Set of open end wrenches in carton box",
+    "count": "0"
+  },
+  {
+    "sku": 615465,
+    "line": "110/1CT",
+    "description": "110/1CT",
+    "count": "0"
+  },
+  {
+    "sku": 605528,
+    "line": "110/1MS",
+    "description": "Set of open end wrenches on metal stand",
+    "count": "0"
+  },
+  {
+    "sku": 605532,
+    "line": "110/1MS",
+    "description": "Set of open end wrenches on metal stand",
+    "count": "0"
+  },
+  {
+    "sku": 600108,
+    "line": "110/1PB",
+    "description": "Set of open end wrenches in plastic wallet",
+    "count": "0"
+  },
+  {
+    "sku": 600109,
+    "line": "110/1PB",
+    "description": "Set of open end wrenches in plastic wallet",
+    "count": "0"
+  },
+  {
+    "sku": 618370,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 5
+  },
+  {
+    "sku": 618331,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 5
+  },
+  {
+    "sku": 617801,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 13
+  },
+  {
+    "sku": 621575,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 5
+  },
+  {
+    "sku": 612175,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  },
+  {
+    "sku": 612176,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  },
+  {
+    "sku": 612177,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 5
+  },
+  {
+    "sku": 612178,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  },
+  {
+    "sku": 612179,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  },
+  {
+    "sku": 612180,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  },
+  {
+    "sku": 621576,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 5
+  },
+  {
+    "sku": 612181,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  },
+  {
+    "sku": 621577,
+    "line": "110/2VDEDP",
+    "description": "Llave española de 1 boca aislada",
+    "count": 4
+  }
+]
