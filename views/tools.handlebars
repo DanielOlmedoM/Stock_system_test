@@ -24,16 +24,17 @@
       {{/each}}
     </table>
     </div> --}}
-
-<h1>Tools</h1>
-
+    <div class="busqueda-main">
+<div class="sub-header">
+<h1>Buscador</h1>
+</div>
   <!-- Add the search form -->
   <form action="/tools" method="get">
     <label for="search">Search: </label>
     <input type="text" id="search" name="search">
     <button type="submit">Search</button>
   </form>
-
+</div>
   <!-- Display the search results -->
   {{#if search}}
     <p>Search results for "{{search}}":</p>
@@ -43,6 +44,7 @@
         <th>Linea</th>
         <th>Descripción</th>
         <th>Conteo</th>
+        <th>Agregar</th>
       </tr>
     {{#each tools}}
       <tr>
@@ -50,6 +52,7 @@
           <td>{{this.dataValues.line}}</td>
           <td>{{this.dataValues.description}}</td>
           <td>{{this.dataValues.count}}</td>
+          <td><img src="images/add_icon.jpg" alt="" srcset=""></td>
           </tr>
     {{/each}}
     </table>
@@ -60,6 +63,7 @@
         <th>Linea</th>
         <th>Descripción</th>
         <th>Conteo</th>
+        <th>Agregar</th>
       </tr>
       {{#each tools}}
         <tr>
@@ -67,6 +71,7 @@
           <td>{{this.dataValues.line}}</td>
           <td>{{this.dataValues.description}}</td>
           <td>{{this.dataValues.count}}</td>
+          <td><img src="images/add_icon.jpg" alt="" srcset=""></td>
           </tr>
       {{/each}}
     </table>

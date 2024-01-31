@@ -24,6 +24,12 @@ header ul {
 
 /*Tools*/
 
+.sub-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .busqueda-main {
     width: 90vw;
     display: flex;
@@ -66,10 +72,20 @@ header ul {
     border-style: solid;
     border-width: 1px;
     min-height: 2rem;
+    padding: 0.5rem 0;
 }
 
 .busqueda-table tr {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.busqueda-table tr:nth-child(even) {
+    background-color: #edecec;
+  }
+
+.busqueda-table img {
+    height: 1.3rem;
+    width: auto;
 }
