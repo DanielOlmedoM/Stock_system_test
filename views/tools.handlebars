@@ -9,7 +9,7 @@
     <th>Conteo</th>
   </tr>
 </table>
-<button onclick="saveAsPDF()">Save Table as PDF</button>
+<button id="saveAsHtml">Save Table as PDF</button>
     <div class="busqueda-main">
 <div class="sub-header">
 <h1>Buscador</h1>
@@ -62,67 +62,5 @@
       {{/each}}
     </table>
   {{/if}}
-
-<script src="libs/jspdf.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-
-  <script>
-        // Function to perform the search
-        function searchTable() {
-            var input, filter, table, tr, td, i, j, txtValue;
-            input = document.getElementById("search");
-            filter = input.value.toUpperCase();
-            table = document.querySelector(".busqueda-table");
-            tr = table.getElementsByTagName("tr");
-
-            // Loop through all table rows, starting from the second row (index 1)
-            for (i = 1; i < tr.length; i++) {
-                // Loop through all cells in the current row
-                for (j = 0; j < tr[i].cells.length; j++) {
-                    td = tr[i].cells[j];
-                    if (td) {
-                        txtValue = td.textContent || td.innerText;
-                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                            tr[i].style.display = "";
-                            break; // Break the inner loop, no need to check other cells in the row
-                        } else {
-                            tr[i].style.display = "none";
-                        }
-                    }
-                }
-            }
-        }
-
-        // Attach the search function to the input's "input" event
-        document.getElementById("search").addEventListener("input", searchTable);
-
-         function addToAnotherTable(button) {
-    var row = button.parentNode.parentNode;
-    var cells = row.getElementsByTagName("td");
-    var sku = cells[0].innerText;
-    var linea = cells[1].innerText;
-    var desc = cells[2].innerText;
-    var conteo = cells[3].innerText;
-    
-    var anotherTable = document.getElementById("anotherTable");
-    var newRow = anotherTable.insertRow();
-    var cell1 = newRow.insertCell(0);
-    var cell2 = newRow.insertCell(1);
-    var cell3 = newRow.insertCell(2);
-    var cell4 = newRow.insertCell(3);
-    cell1.innerHTML = sku;
-    cell2.innerHTML = linea;
-    cell3.innerHTML = desc;
-    cell4.innerHTML = "1";
-  }
-
-  function saveAsPDF() {
-    console.log("Loading jsPDF");
-    var doc = new jsPDF();
-    doc.autoTable({html: '#anotherTable'});
-    doc.save('table.pdf');
-  }
-
-    </script>
 
   </body>
